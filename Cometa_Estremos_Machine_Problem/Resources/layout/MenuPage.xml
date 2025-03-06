@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorful_bg">
+    <LinearLayout
+        android:orientation="vertical"
+         android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="80.3dp"
+            android:layout_marginStart="50px"
+            android:layout_marginEnd="50px"
+            android:id="@+id/imageView1" />   
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginLeft="90px"
+        android:layout_marginRight="90px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginBottom="50px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="Welcome,"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="60px"
+                android:id="@+id/textView2" />
+            <TextView
+                android:text=""
+                android:textSize="120px"
+                android:layout_marginBottom="50px"
+                android:textColor="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:id="@+id/textView4" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:paddingBottom="100px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="#80ffffff">
+            <Button
+                android:text="Add Money"
+                android:layout_marginTop="100px"     
+                android:textSize="45px"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="60.5dp"
+                android:backgroundTint="#ff63"
+                android:id="@+id/button1" />
+            <Button
+                android:text="Send money"
+                android:layout_marginTop="30px"     
+                android:textSize="45px"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="60.5dp"
+                android:backgroundTint="#3C038E"
+                android:id="@+id/button2" />
+            <Button
+                android:text="View Transaction"
+                android:layout_marginTop="30px"     
+                android:textSize="40px"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="60.5dp"
+                android:backgroundTint="#ff63"
+                android:id="@+id/button3" />
+            <Button
+                android:text="Edit user profile"
+                android:layout_marginTop="30px"     
+                android:textSize="40px"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="60.5dp"
+                android:backgroundTint="#3C038E"
+                android:id="@+id/button4" />
+        </LinearLayout>
+        <Button
+                android:text="Log Out"
+                android:layout_marginTop="130px"     
+                android:textSize="45px"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="60.5dp"
+                android:backgroundTint="#f62534"
+                android:id="@+id/button5" />
+    </LinearLayout>
+</LinearLayout>
+
